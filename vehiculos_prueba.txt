@@ -1,0 +1,6 @@
+{ "id":11, "tipo": "coche", "marca": "Renault", "modelo": "Clio","anio": 2020, "puertas": 5 }
+{ "id":12, "tipo": "coche", "marca": "SEAT", "modelo": "Ibiza","anio": 2018, "puertas": 3 }
+{ "id":13, "tipo": "coche", "marca": "Toyota", "modelo": "Corolla","anio": 2022, "puertas": 3 }
+{ "id":14, "tipo": "moto", "marca": "Yamaha", "modelo": "MT-07","anio": 2021, "sidecar": false }
+{ "id":15, "tipo": "moto", "marca": "Harley-Davidson", "modelo": "Sportster","anio": 2019, "sidecar": true }
+{ "id":16, "tipo": "moto", "marca": "Honda", "modelo": "PCX 125","anio": 2023, "sidecar": false }

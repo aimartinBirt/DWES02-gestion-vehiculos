@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestión de vehículos</title>
+  <link rel="stylesheet" href="public/styles.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1>Gestión de vehículos</h1>
+    <section class="panel">
+      <h2>Consultar vehículo por ID (GET)</h2>
+      <form method="get" action="index.php">
+        <label for="id">ID del vehículo</label>
+        <input type="number" id="id" name="id" min="1" required>
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+    <section class="panel">
+      <h2>Dar de alta un vehículo (POST)</h2>
+      <p>Pega una única línea del fichero <code>vehiculos_prueba.txt</code> o escribe un JSON válido.</p>
+      <form method="post" action="index.php">
+        <label for="jsonPost">Datos del vehículo en JSON</label>
+        <textarea id="jsonPost" name="jsonPost" rows="8" required>{ "id": 20, "tipo": "coche", "marca": "Renault", "modelo": "Clio", "anio": 2020, "puertas": 5 }</textarea>
+        <button type="submit">Guardar</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
