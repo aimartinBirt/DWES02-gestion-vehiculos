@@ -25,3 +25,7 @@ Proyecto PHP con arquitectura MVC, namespaces, Composer y autoload PSR-4.
 - `data/vehiculos_bbdd.php`: datos iniciales.
 - `views`: resultados GET, POST y errores.
 - `public`: estilos CSS.
+
+## Pruebas del proyecto
+
+La aplicación se puede ejecutar en local utilizando XAMPP y PHP.
